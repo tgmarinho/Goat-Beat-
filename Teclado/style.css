@@ -1,0 +1,123 @@
+/*--------------------------- TEXTO ------------------------*/
+
+h4{
+    color: #dbdbdb;
+    letter-spacing:3px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left:30px;
+    position: relative;
+    top:25px
+
+}
+
+hr{
+    color: #e300ba;
+    width: 40%;
+    transform: rotate(90deg);
+
+}
+/*--------------------------- BOTÕES ------------------------*/
+
+#keys{
+    position: absolute;
+    left: 57%;
+    top:22%;
+}
+
+#keys-goat{
+    position: absolute;
+    left:10%;
+    top:25%;
+}
+
+#keys-base{ 
+    left:10%;
+    top:35%;
+}
+
+/*.bt{
+    float: left;
+    display: table;
+    color: #fff;
+    margin: 25px;
+    margin-left: 25px;
+    padding: 20px 25px;
+    border: solid 2px  #cca300;
+    border-radius: 10px;
+    border-color:  #cca300;
+    background: rgb(0, 0, 0, 0.4);
+    font-family: helvetica, sans-serif;
+    font-size: 20px
+}*/
+
+.key{
+    float: left;
+    display: table;
+    color: #fff;
+    margin: 25px;
+    margin-left: 25px;
+    padding: 20px 25px;
+    border: solid 2px  #cca300;
+    border-radius: 10px;
+    border-color:  #cca300;
+    background: rgb(0, 0, 0, 0.4);
+    font-family: helvetica, sans-serif;
+    font-size: 20px;
+    transition: all 0.07s;
+}
+
+.playing{
+    transform: scale(1.2);
+    border-color: #990080;
+    box-shadow: 0 0 10px #990080
+
+}
+
+/*-------------------------------------------  HEADER -------------------------*/
+
+#logo{
+    position: absolute;
+    width: 120px;
+    top: -30px;  
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+/*-------------------------------------------  BODY -------------------------*/
+body{
+    background-image: url(./imagem/space2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*------------------------------RODAPÉ--------------------*/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 07%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0.7
+}
+
+.list-style-none{
+    list-style: none!important;
+    display: flex!important;
+}
+
+.flex-items-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.mr-3{
+    margin: 10px;
+    margin-top: -3px
+}
