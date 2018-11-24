@@ -1,2 +1,6 @@
 # Goat-Beat-
-A new project of goat. We go create an "eletronic table" with goat scream, i started the project but we have so work, if you can help us, we thank (I am brazilian..... dont judge my english)
+
+A new project of the goat. We go create an "electronic table" with goat scream, I started the project but we have too work if you can help us thank you!
+
+## Things I need todo
+* Make it works on mobile
